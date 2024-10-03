@@ -1,5 +1,6 @@
 import { FaGithub, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
+import amir from "/public/images/amir2.png";
 
 function Hero() {
   return (
@@ -44,7 +45,7 @@ function Hero() {
           </a>
         </div>
         <div className="mt-10 lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="/public/images/amir2.png" width={656} alt="" />
+          <img src={amir} width={656} alt="" />
         </div>
       </div>
     </section>

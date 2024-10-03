@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
 import { FaGithub, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import logo from "/public/images/logo.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,12 +13,7 @@ function Header() {
       <div className="max-w-screen-2xl w-full mx-auto flex justify-between items-center px-6 md:grid md:grid-cols-[1fr,3fr,1fr]">
         <h1>
           <a href="/" className="logo">
-            <img
-              src="/public/images/logo.png"
-              alt="Amir Gafr"
-              width={40}
-              height={40}
-            />
+            <img src={logo} alt="Amir" width={40} height={40} />
           </a>
         </h1>
 
