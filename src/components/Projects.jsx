@@ -5,6 +5,8 @@ import proj3 from "../../public/images/projectt-3.jpg";
 import proj4 from "../../public/images/projectt-4.jpg";
 import proj5 from "../../public/images/projectt-5.jpg";
 import proj6 from "../../public/images/projectt-6.jpg";
+import proj7 from "../../public/images/projectt-7.jpg";
+import proj8 from "../../public/images/projectt-8.jpg";
 function Projects() {
   return (
     <section id="work" className="pt-20">
@@ -15,6 +17,44 @@ function Projects() {
           </h2>
         </div>
         <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+          <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://amirgafr.github.io/prestashop-Ecommerce/">
+              <img
+                className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src={proj7}
+                alt=""
+              />
+            </a>
+            <div className="p-5">
+              <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">prestashop Ecommerce</a>
+              </h3>
+              <span className="text-gray-500 dark:text-gray-400">
+                #HTML #CSS
+              </span>
+              <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+                Responsive Ecommerce Website Using HTML CSS
+              </p>
+              <ul className="flex space-x-4 sm:mt-0">
+                <li>
+                  <a
+                    href="https://github.com/amirgafr/prestashop-Ecommerce"
+                    className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                  >
+                    <FaGithub />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://amirgafr.github.io/prestashop-Ecommerce/"
+                    className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                  >
+                    <FaLink />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
             <a href="https://amirgafr.github.io/BookList-App-OOP/">
               <img
@@ -235,6 +275,44 @@ function Projects() {
                 <li>
                   <a
                     href="https://redux-shopping-cart-lyart.vercel.app/"
+                    className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                  >
+                    <FaLink />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://www.linkedin.com/posts/amir-gafr-8a18b9147_quiz-app-react-a-project-that-is-based-activity-7238212783194943488-1WZV?utm_source=share&utm_medium=member_desktop">
+              <img
+                className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src={proj8}
+                alt=""
+              />
+            </a>
+            <div className="p-5">
+              <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">Quiz App React</a>
+              </h3>
+              <span className="text-gray-500 dark:text-gray-400">
+                #useReducer
+              </span>
+              <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+                A project that is based on (useReducer Hook).
+              </p>
+              <ul className="flex space-x-4 sm:mt-0">
+                <li>
+                  <a
+                    href="https://github.com/amirgafr/Quiz-App-React"
+                    className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                  >
+                    <FaGithub />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/posts/amir-gafr-8a18b9147_quiz-app-react-a-project-that-is-based-activity-7238212783194943488-1WZV?utm_source=share&utm_medium=member_desktop"
                     className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                   >
                     <FaLink />
